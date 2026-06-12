@@ -5,13 +5,14 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { Rotas } from './router/rotas'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
     
-      <Rotas></Rotas>
+      <Rotas/>
     
       
     </>
