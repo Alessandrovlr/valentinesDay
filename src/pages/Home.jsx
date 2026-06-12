@@ -46,7 +46,7 @@ export const Home = () => {
       </div>
 
       <main className="flex flex-col items-center justify-center min-h-screen text-center">
-        <img src="src/assets/public/shycat.webp" alt="Gatinho" />
+        <img src="src/assets/public/shycat.png" alt="Gatinho" />
         <h1 className="text-[#8B1E3F] 
                 text-lg" 
             style={{ fontFamily: "Chewy" }}>
