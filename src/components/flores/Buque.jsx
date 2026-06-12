@@ -1,6 +1,6 @@
 import "./Buque.css";
 import flores from "../../assets/public/svg/flores.svg"
-import { SvgBuque } from "./svgBuque";
+import { SvgBuque } from "./SvgBuque";
 import { OpcoesPresente } from "../OpcoesPresente/OpcoesPresente";
 import { Link, useNavigate } from "react-router-dom";
 import casinha from "../../assets/public/casinha.png"
