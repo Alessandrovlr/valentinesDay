@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import gatinhoShy from "../assets/public/shycat.png"
 
 export const Home = () => {
     const hearts = ["❤️", "💖", "💕", "💗", "💘"];
@@ -46,7 +47,7 @@ export const Home = () => {
       </div>
 
       <main className="flex flex-col items-center justify-center min-h-screen text-center">
-        <img src="src\assets\public\shycat.png" alt="Gatinho" />
+        <img src={gatinhoShy} alt="Gatinho" />
         <h1 className="text-[#8B1E3F] 
                 text-lg" 
             style={{ fontFamily: "Chewy" }}>
