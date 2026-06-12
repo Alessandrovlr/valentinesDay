@@ -1,0 +1,251 @@
+#svg1 path {
+  fill: transparent;
+
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+
+  animation:
+    desenhar 25s ease forwards,
+    colorir 2s ease forwards 8s;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@keyframes desenhar {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes colorir {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
+}
+
+/* ===========================
+   CAULE
+=========================== */
+
+#svg1 .caule {
+  color: #3c4e59;
+}
+
+#svg1 .caule path {
+  fill-opacity: 0;
+
+  animation:
+    desenhar 25s ease forwards,
+    aparecerCaule 2s ease forwards 10s;
+}
+
+@keyframes aparecerCaule {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
+}
+
+/* ===========================
+   LAÇO
+=========================== */
+
+#svg1 .laco {
+  color: #9fdcff;
+}
+
+#svg1 .laco path {
+  fill-opacity: 0;
+
+  animation:
+    desenhar 25s ease forwards,
+    aparecerLaco 2s ease forwards 10s;
+}
+
+@keyframes aparecerLaco {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
+}
+
+/* ===========================
+   FLORES
+=========================== */
+
+#svg1 .flores {
+  color: #ed6f7a;
+}
+
+#svg1 .flores path {
+  fill-opacity: 0;
+
+  animation:
+    desenhar 25s ease forwards,
+    aparecerFlores 2s ease forwards 10s;
+}
+
+@keyframes aparecerFlores {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
+}
+
+/* ===========================
+   CENTRO
+=========================== */
+
+#svg1 .centro {
+  color: #d4d5ae;
+}
+
+#svg1 .centro path {
+  fill-opacity: 0;
+
+  animation:
+    desenhar 25s ease forwards,
+    aparecerCentro 2s ease forwards 10s;
+}
+
+@keyframes aparecerCentro {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
+}
+
+/* ===========================
+   MIOLO
+=========================== */
+
+#svg1 .miolo {
+  color: #f2989b;
+}
+
+#svg1 .miolo path {
+  fill-opacity: 0;
+
+  animation:
+    desenhar 25s ease forwards,
+    aparecerMiolo 2s ease forwards 10s;
+}
+
+@keyframes aparecerMiolo {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
+}
+
+/* ===========================
+   FOLHAS
+=========================== */
+
+#svg1 .folhas {
+  color: #82a861;
+}
+
+#svg1 .folhas path {
+  fill-opacity: 0;
+
+  animation:
+    desenhar 25s ease forwards,
+    aparecerFolhas 2s ease forwards 10s;
+}
+
+@keyframes aparecerFolhas {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
+}
+
+/* .buque path {
+  fill: none;
+  stroke: #3b2b2b;
+  stroke-width: 2;
+
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+
+  animation: desenhar 5s ease forwards;
+}
+
+@keyframes desenhar {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+ */
+
+/* .delay-1 {
+  animation-delay: .5s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+.delay-3 {
+  animation-delay: 1.5s;
+}
+
+.delay-4 {
+  animation-delay: 2s;
+}
+
+.delay-5 {
+  animation-delay: 2.5s;
+}
+
+.delay-6 {
+  animation-delay: 3s;
+}
+
+.delay-7 {
+  animation-delay: 3.5s;
+}
+
+.delay-8 {
+  animation-delay: 4s;
+}
+
+
+.flower {
+  stroke: #8B1E3F;
+  fill: transparent;
+}
+
+
+.leaf {
+  stroke: #65a765;
+}
+
+
+.ribbon {
+  stroke: #ff6fa5;
+} */

@@ -1,0 +1,112 @@
+import "./Buque.css";
+
+export const Buque = () => {
+  return (
+    <svg
+      className="buque"
+      viewBox="0 0 300 400"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+
+      {/* Caules */}
+      <path
+        className="draw"
+        d="M150 330 C150 250 150 180 150 100"
+      />
+
+      <path
+        className="draw delay-1"
+        d="M150 300 C120 230 90 180 70 130"
+      />
+
+      <path
+        className="draw delay-2"
+        d="M150 300 C180 220 220 180 240 130"
+      />
+
+
+      {/* Folhas */}
+      <path
+        className="leaf draw delay-3"
+        d="M130 250 C80 230 70 270 130 270"
+      />
+
+      <path
+        className="leaf draw delay-4"
+        d="M170 220 C230 200 240 240 170 240"
+      />
+
+
+      {/* Centro da flor */}
+<circle
+  className="flower draw delay-5"
+  cx="150"
+  cy="100"
+  r="8"
+/>
+
+
+{/* Pétala cima */}
+<path
+  className="flower draw delay-5"
+  d="
+  M150 92
+  C135 70 150 55 165 75
+  C170 85 160 95 150 92
+  "
+/>
+
+
+{/* Pétala esquerda */}
+<path
+  className="flower draw delay-6"
+  d="
+  M142 100
+  C115 85 95 100 115 120
+  C125 130 140 115 142 100
+  "
+/>
+
+
+{/* Pétala direita */}
+<path
+  className="flower draw delay-7"
+  d="
+  M158 100
+  C185 85 205 100 185 120
+  C175 130 160 115 158 100
+  "
+/>
+
+
+{/* Pétala baixo esquerda */}
+<path
+  className="flower draw delay-8"
+  d="
+  M145 110
+  C120 120 125 150 145 140
+  C155 135 155 120 145 110
+  "
+/>
+
+
+{/* Pétala baixo direita */}
+<path
+  className="flower draw delay-8"
+  d="
+  M155 110
+  C180 120 175 150 155 140
+  C145 135 145 120 155 110
+  "
+/>
+
+
+      {/* Laço */}
+      <path
+        className="ribbon draw delay-8"
+        d="M110 320 Q150 360 190 320"
+      />
+
+    </svg>
+  );
+}

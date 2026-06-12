@@ -1,0 +1,5 @@
+export const PageNotFound = () =>{
+    return(
+        <p>404</p>
+    )
+}
